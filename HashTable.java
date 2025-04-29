@@ -1,3 +1,8 @@
+//Andrea Ramirez
+//Chpt 6 PA
+
+//This program implements a hash table to store, search, insert, and remove key-value pairs
+
 // Class to represent the key-value pair (Item)
 class Item {
     String key;  
