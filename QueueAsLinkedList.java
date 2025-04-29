@@ -183,7 +183,7 @@ public class QueueAsLinkedList {
         if (item != -1) {
             System.out.println("Item " + item + " was removed from the queue.");
 		} else { 
-				System.out.println("An item was not dequeued.");
+			System.out.println("An item was not dequeued.");
 		}
 		
         item = queue.dequeue();
@@ -191,7 +191,7 @@ public class QueueAsLinkedList {
         if (item != -1) {
             System.out.println("Item " + item + " was removed from the queue.");
 		} else {
-				System.out.println("An item was not dequeued.");
+			System.out.println("An item was not dequeued.");
 		} 
         // Check if the queue is empty
         System.out.println(queue.isEmpty() ? "The queue is empty." : "The queue is not empty.");
